@@ -1,4 +1,4 @@
-# trial_app
+# Online Examination System Using Flutter.
 
 A new Flutter application.
 
