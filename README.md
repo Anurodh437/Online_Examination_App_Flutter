@@ -1,5 +1,7 @@
 # Online Examination System Using Flutter.
 
+Currently this app is in progress and will will be completed soon.
+There will be use of firebase and firestore.
 A new Flutter application.
 
 ## Getting Started
