@@ -39,10 +39,10 @@ class _GlaAppState extends State<GlaApp> {
                 decoration: BoxDecoration(
                   color: Colors.deepOrange,
                 ),
-              accountName:Text("Anurodh Dubey",style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold)),
-              accountEmail: Text("anurodh.dubey_cs19@gla.ac.in"),
+              accountName:Text("Name",style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold)),
+              accountEmail: Text("Email Id"),
               currentAccountPicture: CircleAvatar(
-                backgroundImage: AssetImage("assets/anu.jpg"),
+                backgroundImage: AssetImage("assets/gla-university-logo.jpg"),
               ),
            ),
             ListTile(
