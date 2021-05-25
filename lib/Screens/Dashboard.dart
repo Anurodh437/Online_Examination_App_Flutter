@@ -112,11 +112,11 @@ class _DashboardState extends State<Dashboard> {
                                 child: Column(
                                   mainAxisAlignment: MainAxisAlignment.center,
                                   children: <Widget>[
-                                       SvgPicture.network(
-                                          "https://image.flaticon.com/icons/svg/1904/1904425.svg",height: 115,
+                                       SvgPicture.asset(
+                                          "assets/building.svg",height: 115,
                                       ),
                                     Text(
-                                      "Faculty",
+                                      "Admin",
                                       style: TextStyle(
                                         fontWeight: FontWeight.bold,
                                         fontSize: 20,
@@ -138,10 +138,10 @@ class _DashboardState extends State<Dashboard> {
                                 child: Column(
                                   mainAxisAlignment: MainAxisAlignment.center,
                                   children: <Widget>[
-                                    SvgPicture.network(
-                                          "https://image.flaticon.com/icons/svg/1904/1904425.svg",height: 115
+                                    SvgPicture.asset(
+                                          "assets/team.svg",height: 115
                                     ),
-                                    Text("Admin",
+                                    Text("Staff",
                                       style: TextStyle(
                                         fontWeight: FontWeight.bold,
                                         fontSize: 20,
@@ -163,8 +163,8 @@ class _DashboardState extends State<Dashboard> {
                                 child: Column(
                                   mainAxisAlignment: MainAxisAlignment.center,
                                   children: <Widget>[
-                                        SvgPicture.network(
-                                          "https://image.flaticon.com/icons/svg/1904/1904425.svg", height: 115
+                                        SvgPicture.asset(
+                                          "assets/positive-vote.svg", height: 115
                                         ),
                                     Text(
                                       "Feedback",
