@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:splashscreen/splashscreen.dart';
+import 'package:trial_app/Screens/LoginScreen.dart';
 //import 'package:trial_app/Screens/LoginScreen.dart';
 import 'package:trial_app/Screens/mainscreen.dart';
 
@@ -26,7 +27,7 @@ class SplashPage extends StatelessWidget {
     return SplashScreen(
       backgroundColor: Colors.lightGreenAccent[700],
       seconds: 5,
-      navigateAfterSeconds: new GlaApp(),
+      navigateAfterSeconds: new LoginPage(),
       title: Text('GLA UNIVERSITY',textScaleFactor: 2,style: TextStyle(color: Colors.green[900],fontWeight: FontWeight.bold,fontSize: 16)),
       image: Image.asset('assets/ab3.png'),
       imageBackground: null,
